@@ -374,3 +374,25 @@ form button {
   padding: 12px;
   border: none;
 }
+
+@media screen and (min-width: 900px) {
+  .contact-section {
+    flex-direction: row;
+    gap: 8px;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+  }
+
+  form {
+    flex-grow: 4;
+  }
+
+  .contact-intro {
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: bold;
+    text-align: left;
+    flex-grow: 2;
+  }
+}
